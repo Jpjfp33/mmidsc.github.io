@@ -1,1 +1,48 @@
+<!doctype html>
+ 
+  <html>
+  <head>
+    
+    <title>Stickers</title>
+    <link rel="stylesheet"
+      href="Styleee.css"
+    
+  </head>
+    <body>
+      
+      <h1 class="abc">Stickers de Casamento</h1>
+  
+      <br>
+      
+      <h2 class="def">Vendemos Stickers para o seu casamento.</h2>
+      <h1 class="def">Porquê comprar?</h1>
+      <p>Porque vai ser uma lembrança bonita para todos os seus convidados e especialmente para os noivos. Para relembrar a data do seu casamento. :)</p>
+      <br>
+      <h1>---------------------</h1>
+      <br>
+      
+      <img src="https://mimo.app/i/cat.png"
+        alt="Sticker" width="150">
+      <br>
+      <button>0,60€</button>
+      
+      <h1>---------------------</h1>
+      
+      <img src="https://mimo.app/i/cat.png"
+        alt="Sticker" width="150">
+      <br>
+      <button>0,70€</button>
+      
+      <h1>---------------------</h1>
+      
+      <a href="https://www.youtube.com"
+        target="_blank">Youtube</a>
+      
+      <br>
+      
+      <a href="https://www.instagram.com"
+      target="_blank">Instagram</a>
+     
+    </body>
+    </html>
 
