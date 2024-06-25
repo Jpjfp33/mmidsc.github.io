@@ -91,3 +91,18 @@ background-color: white;
  font-family: 'Howell';
  
 }
+
+.imagesborder {
+
+border-radius: 50px;
+
+}
+
+footer {
+
+background-color: black;
+ color: white;
+ padding: 20px;
+ margin-top: 20px;
+
+}
