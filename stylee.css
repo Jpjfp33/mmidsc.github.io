@@ -1,5 +1,6 @@
-.search-container {
+body {
 
 text-align: center;
+  background: linear-gradient(to left, red, turquoise);
   
 }
