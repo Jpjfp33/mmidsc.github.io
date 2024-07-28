@@ -1,17 +1,76 @@
-<!doctype html>
- 
-  <html>
-  <head>
-    
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mmidsc</title>
-    <link rel="stylesheet"
+ <link rel="stylesheet"
       href="styleee.css"
-    
-  </head>
-    <body>
-
-     <img class="logo" src="https://img.freepik.com/premium-vector/hand-drawn-kawaii-coloring-book-mushroom-icon-vector-illustration_949459-1979.jpg"
-        alt="MMidsc" width="150"> <h1 class="ghi">mmidsc</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+        .logot {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .search-container {
+            position: relative;
+        }
+        .search-container input {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .search-container button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .cart {
+            display: flex;
+            align-items: center;
+        }
+        .cart img {
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logot">
+            <img src="https://img.freepik.com/premium-vector/hand-drawn-kawaii-coloring-book-mushroom-icon-vector-illustration_949459-1979.jpg" alt="Logo do Site">
+            <h1>mmidsc</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button type="button">🔍</button>
+        </div>
+        <div class="cart">
+            <img src="https://imgs.search.brave.com/d0wZKTLfpi4zYlRmV4FQuLzPUbORYosjB7MlqTYhvGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ob3Rl/bW9qaS5jb20vaW1h/Z2VzL2Vtb2ppL2cv/bHdtOGFhMWFkb2Zu/Zy5wbmc" alt="Carrinho de Compras">
+            <a href="#">Carrinho</a>
+        </div>
+    </header>
       
       <h1 class="abc">Vendemos:</h1>
   
